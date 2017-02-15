@@ -1,0 +1,21 @@
+[
+  {
+    "title": "50型液晶テレビ",
+    "img_url": "/static/product/images/img_sample.jpg",
+    "catch": "臨場感豊かな音を再現した「スーパーバス」搭載",
+    "note" : {
+      "limit": "先着5台限り",
+      "brand": "Hisense",
+      "serial": "XXX0XXXX0",
+      "point": "0000ポイント進呈"
+    },
+    "marker": {
+      "warranty": true,
+      "delivery": true,
+      "setting": true,
+      "extension": true
+    },
+    "price": "00,000",
+    "link": "#"
+  }
+]
