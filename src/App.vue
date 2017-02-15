@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import 'babel-polyfill';
-import 'picturefill';
+// import 'babel-polyfill';
+// import 'picturefill';
 
 export default {
   name: 'app',
@@ -35,7 +35,6 @@ export default {
       max-width: 100%;
       height: auto;
   }
-
   * {
     box-sizing: border-box;
   }
