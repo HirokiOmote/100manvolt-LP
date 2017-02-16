@@ -13,6 +13,7 @@
     "animate.css": "^3.5.2",
     "axios": "^0.15.3",
     "babel-polyfill": "^6.23.0",
+    "headroom.js": "^0.9.3",
     "normalize.css": "^5.0.0",
     "picturefill": "^3.0.2",
     "vue": "^2.1.10",

@@ -5,8 +5,8 @@
 </template>
 
 <script>
-// import 'babel-polyfill';
-// import 'picturefill';
+import 'babel-polyfill';
+import 'picturefill';
 
 export default {
   name: 'app',
@@ -21,6 +21,7 @@ export default {
       font-family: Lucida, "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , sans-serif;
       line-height: 1;
       font-feature-settings: "palt" 1;
+      letter-spacing: 0.02em;
   }
   body {
     background: linear-gradient(to bottom, #3e41b1 0%, #252895 100%) no-repeat;

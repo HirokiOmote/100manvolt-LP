@@ -1,5 +1,6 @@
 <template>
   <div>
+    <navigation></navigation>
     <header>
       <h1 class="wow bounceInLeft">
         <picture>
@@ -24,7 +25,7 @@
     <ul class="productsContainer">
       <product v-for="product in products" :product="product"></product>
     </ul>
-    <a class="wow bounceInLeft Btn" href="#">WEBチラシを見る<span>(PDF:00kb)</span></a>
+    <a class="wow bounceInLeft Btn" href="#" target="_blank">WEBチラシを見る<span>(PDF:00kb)</span></a>
     <footer>
       <p><small>Copyright (C) 2017 Y3Q Co.,Ltd,. All Rights Reserved. </small></p>
     </footer>
@@ -35,6 +36,7 @@
 import Vue from 'vue';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
+import Navigation from '../components/Navigation';
 import Product from '../components/Product';
 
 Vue.use(VueAxios, axios);
@@ -42,6 +44,7 @@ Vue.use(VueAxios, axios);
 export default {
   name: 'Specialsale',
   components: {
+    Navigation,
     Product,
   },
 
@@ -70,7 +73,7 @@ export default {
 @import "../assets/stylesheets/_mixin.scss";
 
   header {
-    padding: 15px;
+    padding: 90px 15px 15px;
     line-height: 0;
     text-align: center;
   }
