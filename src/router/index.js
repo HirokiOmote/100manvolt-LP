@@ -8,7 +8,7 @@ import Specialsale from 'pages/Specialsale';
 Vue.use(Router);
 
 export default new Router({
-  base: '/100manvolt-LP/',
+  base: '/',
   mode: 'history',
   routes: [
     {
