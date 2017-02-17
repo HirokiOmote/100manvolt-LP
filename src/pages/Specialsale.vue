@@ -6,8 +6,8 @@
         <picture>
           <source
             media="(min-width: 768px)"
-            srcset="static/images/common/ttl_page.png, /static/images/common/ttl_page@2x.png 2x">
-          <img src="static/images/common/ttl_page.png" alt="プレミアムフライデーセール！実質タダになるプレミアム抽選会。最大10万円が当たる！">
+            srcset="/static/images/common/ttl_page.png, /static/images/common/ttl_page@2x.png 2x">
+          <img src="/static/images/common/ttl_page.png" alt="プレミアムフライデーセール！実質タダになるプレミアム抽選会。最大10万円が当たる！">
         </picture>
       </h1>
       <p class="wow bounceInRight">
@@ -17,8 +17,8 @@
             srcset="/static/images/specialsale/txt_specialsale_sm.png, /static/images/specialsale/txt_specialsale_sm@2x.png 2x">
             <source
               media="(min-width: 320px)"
-              srcset="static/images/specialsale/txt_specialsale_xs.png">
-          <img src="static/images/specialsale/txt_specialsale_xs.png" alt="プレミアムフライデーセール！実質タダになるプレミアム抽選会。最大10万円が当たる！">
+              srcset="/static/images/specialsale/txt_specialsale_xs.png">
+          <img src="/static/images/specialsale/txt_specialsale_xs.png" alt="プレミアムフライデーセール！実質タダになるプレミアム抽選会。最大10万円が当たる！">
         </picture>
       </p>
     </header>
