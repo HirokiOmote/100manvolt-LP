@@ -66,7 +66,7 @@ export default {
   }
   a {
     display: block;
-    width : 100%;
+    min-width: 8em;
     padding: 20px 0;
     color: #fff;
     font-size: 1.2rem;
