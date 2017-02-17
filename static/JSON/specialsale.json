@@ -1,39 +1,111 @@
 [
   {
     "title": "50型液晶テレビ",
-    "img_url": "/static/product/images/img_sample.jpg",
-    "catch": "臨場感豊かな音を再現した「スーパーバス」搭載",
+    "img_url": "/static/product/images/specialsale01.jpg",
+    "catch": "迫力大画面！",
     "note" : {
-      "limit": "先着5台限り",
-      "brand": "Hisense",
-      "serial": "XXX0XXXX0",
-      "point": "0000ポイント進呈"
+      "limit": "期間中毎日5台限定",
+      "brand": "SHARP",
+      "serial": "LC50W30",
+      "point": "878ポイント進呈"
     },
     "marker": {
       "warranty": true,
       "delivery": true,
-      "setting": true,
-      "extension": true
+      "setting": false,
+      "extension": false
     },
-    "price": "¥00,000",
+    "price": "¥87,800",
     "link": "/static/pdf/sample2.pdf"
   },
   {
-    "title": "50型液晶テレビ50型液晶テレビ50型液晶テレビ50型液晶テレビ",
-    "img_url": "/static/product/images/img_sample.jpg",
-    "catch": "臨場感豊かな音を再現した「スーパーバス」搭載",
+    "title": "<Office搭載>パソコン",
+    "img_url": "/static/product/images/specialsale02.jpg",
+    "catch": "Word・Excel・PowerPoint搭載。価格はご相談ください！",
     "note" : {
-      "limit": "先着5台限り",
-      "brand": "Hisense",
-      "serial": "XXX0XXXX0",
-      "point": "0000ポイント進呈"
+      "limit": "-",
+      "brand": "TOSHIBA",
+      "serial": "dynabook",
+      "point": "-"
     },
     "marker": {
-      "warranty": false,
-      "delivery": true,
+      "warranty": true,
+      "delivery": false,
       "setting": false,
       "extension": true
     },
-    "price": "¥00,000"
+    "price": "¥89,700"
+  },
+  {
+    "title": "電子辞書",
+    "img_url": "/static/product/images/specialsale03.jpg",
+    "catch": "知識をスマートに持ち歩けるコンパクトモデル",
+    "note" : {
+      "limit": "期間中毎日10台限定",
+      "brand": "CASIO",
+      "serial": "XDC500GD",
+      "point": "99ポイント進呈"
+    },
+    "marker": {
+      "warranty": true,
+      "delivery": false,
+      "setting": false,
+      "extension": false
+    },
+    "price": "¥9,900"
+  },
+  {
+    "title": "<350l>３ドア冷蔵庫",
+    "img_url": "/static/product/images/specialsale04.jpg",
+    "catch": "最上段までラクに手が届くちょっと低めの169cm！",
+    "note" : {
+      "limit": "期間中毎日5台限定",
+      "brand": "SHARP",
+      "serial": "SJW351CS",
+      "point": "798ポイント進呈"
+    },
+    "marker": {
+      "warranty": true,
+      "delivery": true,
+      "setting": false,
+      "extension": false
+    },
+    "price": "¥79,800"
+  },
+  {
+    "title": "<おもに6畳用>エアコン",
+    "img_url": "/static/product/images/specialsale05.jpg",
+    "catch": "フィルター自動掃除でお部屋の空気がキレイ！更にプラズマ空清付き！",
+    "note" : {
+      "limit": "期間中毎日10台限定",
+      "brand": "TOSHIBA",
+      "serial": "RASB225E4RWS",
+      "point": "576ポイント進呈"
+    },
+    "marker": {
+      "warranty": true,
+      "delivery": false,
+      "setting": true,
+      "extension": false
+    },
+    "price": "¥69,800"
+  },
+  {
+    "title": "<7.0kg>全自動洗濯機",
+    "img_url": "/static/product/images/specialsale06.jpg",
+    "catch": "シャワー浸透洗浄でひときわ白く！",
+    "note" : {
+      "limit": "期間中毎日5台限定",
+      "brand": "HITACHI",
+      "serial": "NWZ79E3KW",
+      "point": "498ポイント進呈"
+    },
+    "marker": {
+      "warranty": true,
+      "delivery": true,
+      "setting": false,
+      "extension": false
+    },
+    "price": "¥49,800"
   }
 ]
