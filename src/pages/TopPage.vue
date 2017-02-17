@@ -4,13 +4,16 @@
       <picture>
         <source
           media="(min-width: 768px)"
-          srcset="/static/images/top/img_top001.png">
-        <img src="/static/images/top/img_top001_xs.png" alt="プレミアムフライデーセール！実質タダになるプレミアム抽選会。最大10万円が当たる！">
+          srcset="static/images/top/img_top001.png">
+        <source
+          media="(min-width: 320px)"
+          srcset="/static/images/top/img_top001_xs.png">
+        <img src="/static/images/top/img_top001.png" alt="プレミアムフライデーセール！実質タダになるプレミアム抽選会。最大10万円が当たる！">
       </picture>
     </h1>
     <main class="container">
-      <p class="wow jello"><router-link to="/timesale/"><img src="/static/images/top/img_top002.png" alt="2月24日(金)限定タイムセール開催。タイムセール一覧を見る。"></router-link></p>
-      <p class="wow jello"><router-link to="/specialsale/"><img src="/static/images/top/img_top003.png" alt="2月24日・25日・26日厳選特価品。厳選特価品一覧を見る。"></router-link></p>
+      <p class="wow jello"><router-link to="/timesale/"><img src="static/images/top/img_top002.png" alt="2月24日(金)限定タイムセール開催。タイムセール一覧を見る。"></router-link></p>
+      <p class="wow jello"><router-link to="/specialsale/"><img src="static/images/top/img_top003.png" alt="2月24日・25日・26日厳選特価品。厳選特価品一覧を見る。"></router-link></p>
     </main>
     <footer>
       <p><small>Copyright (C) 2017 Y3Q Co.,Ltd,. All Rights Reserved. </small></p>

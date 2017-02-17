@@ -53,9 +53,6 @@
         </li>
       </ul>
       <p><b>100満特価</b><strong>{{ product.price }}</strong>(税別)</p>
-      <div class="btnLink">
-        <a v-bind:href="product.link">詳細はこちら</a>
-      </div>
     </article>
   </li>
 </template>
@@ -123,9 +120,6 @@ export default {
     height: 100%;
     padding: 15px;
     background-color: #fff;
-    @include media( sm ) {
-      padding: 15px 15px 55px;
-    }
   }
 
   h2 {
@@ -194,6 +188,7 @@ export default {
     @include media( sm ) {
       position: absolute;
       left: 0;
+      right: 0;
       bottom: 15px;
     }
   }
