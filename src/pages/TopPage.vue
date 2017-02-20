@@ -4,16 +4,30 @@
       <picture>
         <source
           media="(min-width: 768px)"
-          srcset="static/images/top/img_top001.png">
+          srcset="/static/images/top/img_top001.png, static/images/top/img_top001@2x.png 2x">
         <source
           media="(min-width: 320px)"
-          srcset="/static/images/top/img_top001_xs.png">
+          srcset="/static/images/top/img_top001_xs.png, /static/images/top/img_top001_xs@2x.png 2x">
         <img src="/static/images/top/img_top001.png" alt="プレミアムフライデーセール！実質タダになるプレミアム抽選会。最大10万円が当たる！">
       </picture>
     </h1>
     <main class="container">
-      <p class="wow jello"><router-link to="/timesale/"><img src="static/images/top/img_top002.png" alt="2月24日(金)限定タイムセール開催。タイムセール一覧を見る。"></router-link></p>
-      <p class="wow jello"><router-link to="/specialsale/"><img src="static/images/top/img_top003.png" alt="2月24日・25日・26日厳選特価品。厳選特価品一覧を見る。"></router-link></p>
+      <p class="wow jello">
+        <!-- <router-link to="/timesale/"> -->
+          <picture>
+            <source srcset="/static/images/top/img_top002.png, /static/images/top/img_top002@2x.png 2x">
+              <img src="/static/images/top/img_top002.png" alt="2月24日(金)限定タイムセール開催。タイムセール一覧を見る。">
+          </picture>
+        <!-- </router-link> -->
+      </p>
+      <p class="wow jello">
+        <!-- <router-link to="/specialsale/"> -->
+          <picture>
+            <source srcset="/static/images/top/img_top003.png, /static/images/top/img_top003@2x.png 2x">
+              <img src="/static/images/top/img_top003.png" alt="2月24日(金)限定タイムセール開催。タイムセール一覧を見る。">
+          </picture>
+        <!-- </router-link> -->
+      </p>
     </main>
     <footer>
       <p><small>Copyright (C) 2017 Y3Q Co.,Ltd,. All Rights Reserved. </small></p>
@@ -51,9 +65,6 @@ export default {
 
   h1 {
     margin: 0;
-    @include media( sm ) {
-      margin: 0 -30px 0 0;
-    }
   }
 
   p {
