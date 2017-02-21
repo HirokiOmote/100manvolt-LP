@@ -2,7 +2,7 @@
   <nav class="nav">
     <ul>
       <li><router-link to="/">トップページ</router-link></li>
-      <li><router-link to="/specialsale/">スペシャルセール</router-link></li>
+      <li><router-link to="/specialsale/">厳選特価品</router-link></li>
       <li><router-link to="/timesale/">タイムセール</router-link></li>
     </ul>
   </nav>
