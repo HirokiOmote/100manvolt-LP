@@ -15,7 +15,7 @@
       <p class="wow jello">
         <router-link to="/timesale/">
           <picture>
-            <source srcset="/static/images/top/img_top002.png">
+            <source srcset="/static/images/top/img_top002.png, /static/images/top/img_top002@2x.png 2x">
               <img src="/static/images/top/img_top002.png" alt="2月24日(金)限定タイムセール開催。タイムセール一覧を見る。">
           </picture>
         </router-link>
@@ -23,7 +23,7 @@
       <p class="wow jello">
         <router-link to="/specialsale/">
           <picture>
-            <source srcset="/static/images/top/img_top003.png">
+            <source srcset="/static/images/top/img_top003.png, /static/images/top/img_top003@2x.png 2x">
               <img src="/static/images/top/img_top003.png" alt="2月24日(金)限定タイムセール開催。タイムセール一覧を見る。">
           </picture>
         </router-link>
