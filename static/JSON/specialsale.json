@@ -7,7 +7,7 @@
       "limit": "期間中毎日5台限定",
       "brand": "SHARP",
       "serial": "LC50W30",
-      "point": "878ポイント進呈"
+      "point": "878ポイント"
     },
     "marker": {
       "warranty": true,
@@ -15,7 +15,7 @@
       "setting": false,
       "extension": false
     },
-    "price": "¥87,800",
+    "price": "87,800",
     "link": "/static/pdf/sample2.pdf"
   },
   {
@@ -34,7 +34,7 @@
       "setting": false,
       "extension": true
     },
-    "price": "¥89,700"
+    "price": "89,700"
   },
   {
     "title": "電子辞書",
@@ -44,7 +44,7 @@
       "limit": "期間中毎日10台限定",
       "brand": "CASIO",
       "serial": "XDC500GD",
-      "point": "99ポイント進呈"
+      "point": "99ポイント"
     },
     "marker": {
       "warranty": true,
@@ -52,7 +52,7 @@
       "setting": false,
       "extension": false
     },
-    "price": "¥9,900"
+    "price": "9,900"
   },
   {
     "title": "<350l>３ドア冷蔵庫",
@@ -62,7 +62,7 @@
       "limit": "期間中毎日5台限定",
       "brand": "SHARP",
       "serial": "SJW351CS",
-      "point": "788ポイント進呈"
+      "point": "788ポイント"
     },
     "marker": {
       "warranty": true,
@@ -70,7 +70,7 @@
       "setting": false,
       "extension": false
     },
-    "price": "¥78,800"
+    "price": "78,800"
   },
   {
     "title": "<おもに6畳用>エアコン",
@@ -80,7 +80,7 @@
       "limit": "期間中毎日10台限定",
       "brand": "TOSHIBA",
       "serial": "RASB225E4RWS",
-      "point": "576ポイント進呈"
+      "point": "576ポイント"
     },
     "marker": {
       "warranty": true,
@@ -88,7 +88,7 @@
       "setting": true,
       "extension": false
     },
-    "price": "¥69,800"
+    "price": "69,800"
   },
   {
     "title": "<7.0kg>全自動洗濯機",
@@ -98,7 +98,7 @@
       "limit": "期間中毎日5台限定",
       "brand": "HITACHI",
       "serial": "NWZ79E3KW",
-      "point": "498ポイント進呈"
+      "point": "498ポイント"
     },
     "marker": {
       "warranty": true,
@@ -106,6 +106,6 @@
       "setting": false,
       "extension": false
     },
-    "price": "¥49,800"
+    "price": "49,800"
   }
 ]

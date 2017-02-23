@@ -18,10 +18,7 @@
         <dt>型番</dt>
         <dd>{{ product.note.serial }}</dd>
       </dl>
-      <dl>
-        <dt>ポイント</dt>
-        <dd class="Attention">{{ product.note.point }}</dd>
-      </dl>
+      <p class="Point">100満ボルトカードで<span class="Attention">{{ product.note.point }}</span></p>
       <ul class="marker">
         <li v-if="product.marker.warranty">
           <picture>
@@ -52,7 +49,7 @@
           </picture>
         </li>
       </ul>
-      <p><b>100満特価</b><strong>{{ product.price }}</strong>(税別)</p>
+      <p class="Price"><b>100満特価</b><strong>{{ product.price }}</strong><span>円</span>(税別)</p>
     </article>
   </li>
 </template>
@@ -92,6 +89,7 @@ export default {
 
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 @import "../assets/stylesheets/mixin";
 
   @for $i from 1 through 20 {
@@ -170,16 +168,35 @@ export default {
     }
   }
 
-  p {
+  .Point {
+    margin-top: 1em;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.3;
+    span {
+      display: block;
+      color: #ff0000;
+      font-size: 1.5em;
+    }
+  }
+
+  .Price {
     font-size: 1.2rem;
     text-align: center;
     b {
       font-size: 1.25em;
+      color: #1d2089;
     }
     strong {
+      font-family: 'Lobster', cursive;
       margin: 0 .1em;
       color: #ff0000;
       font-size: 3.1em;
+    }
+    span {
+      color: #ff0000;
+      font-size: 1.8em;
+      font-weight: 600;
     }
   }
 
