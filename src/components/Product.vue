@@ -96,7 +96,9 @@ export default {
 
   @for $i from 1 through 20 {
     .bounceInDown:nth-child(#{$i}) {
-      animation-delay: #{ $i * 0.1 }s;
+      @include media( sm ) {
+        animation-delay: #{ $i * 0.1 }s;
+      }
     }
   }
 

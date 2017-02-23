@@ -101,7 +101,7 @@
     },
     "marker": {
       "warranty": true,
-      "delivery": true,
+      "delivery": false,
       "setting": false,
       "extension": false
     },
