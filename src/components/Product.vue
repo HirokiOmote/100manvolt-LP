@@ -89,7 +89,6 @@ export default {
 
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Lobster');
 @import "../assets/stylesheets/mixin";
 
   @for $i from 1 through 20 {
@@ -188,7 +187,6 @@ export default {
       color: #1d2089;
     }
     strong {
-      font-family: 'Lobster', cursive;
       margin: 0 .1em;
       color: #ff0000;
       font-size: 3.1em;

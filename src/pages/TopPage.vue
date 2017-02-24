@@ -30,7 +30,7 @@
       </p>
     </main>
     <footer>
-      <p><small>Copyright (C) 2017 Y3Q Co.,Ltd,. All Rights Reserved. </small></p>
+      <p><small>Copyright (C) 2017 3Q Co.,Ltd,. All Rights Reserved. </small></p>
     </footer>
   </div>
 </template>
