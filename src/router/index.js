@@ -3,7 +3,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import VueAnalytics from 'vue-analytics';
 import Top from 'pages/TopPage';
-import Timesale from 'pages/Timesale';
+// import Timesale from 'pages/Timesale';
 import Specialsale from 'pages/Specialsale';
 
 Vue.use(Router);
@@ -19,11 +19,11 @@ export default new Router({
       name: 'Top',
       component: Top,
     },
-    {
-      path: '/timesale/',
-      name: 'Timesale',
-      component: Timesale,
-    },
+    // {
+    //   path: '/timesale/',
+    //   name: 'Timesale',
+    //   component: Timesale,
+    // },
     {
       path: '/specialsale/',
       name: 'Specialsale',
