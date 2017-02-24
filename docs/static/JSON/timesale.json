@@ -7,7 +7,7 @@
       "limit": "24日先着5台限定",
       "brand": "LG",
       "serial": "49UH6500",
-      "point": "798P+更に10,000P進呈"
+      "point": "798P+更に10,000P"
     },
     "marker": {
       "warranty": true,
@@ -25,7 +25,7 @@
       "limit": "24日先着10台限定",
       "brand": "SHARP",
       "serial": "BDNW500",
-      "point": "298ポイント進呈"
+      "point": "298ポイント"
     },
     "marker": {
       "warranty": true,
@@ -43,7 +43,7 @@
       "limit": "24日先着10台限定",
       "brand": "BUFFALO",
       "serial": "HDLC20U3BKD",
-      "point": "70ポイント進呈"
+      "point": "70ポイント"
     },
     "marker": {
       "warranty": true,
@@ -61,7 +61,7 @@
       "limit": "在庫限り",
       "brand": "ASUS",
       "serial": "ZE551MLBK32",
-      "point": "100ポイント進呈"
+      "point": "100ポイント"
     },
     "marker": {
       "warranty": false,
@@ -79,7 +79,7 @@
       "limit": "24日先着5台限定",
       "brand": "Panasonic",
       "serial": "NAFD80H3N",
-      "point": "948ポイント進呈"
+      "point": "948ポイント"
     },
     "marker": {
       "warranty": true,
@@ -97,11 +97,11 @@
       "limit": "24日先着5台限定",
       "brand": "SHARP",
       "serial": "KCG50W",
-      "point": "298ポイント進呈"
+      "point": "298ポイント"
     },
     "marker": {
       "warranty": true,
-      "delivery": true,
+      "delivery": false,
       "setting": false,
       "extension": false
     },
